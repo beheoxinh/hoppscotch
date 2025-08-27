@@ -5,7 +5,7 @@
 [build]
   base = "/"
   publish = "packages/hoppscotch-web/dist"
-  command = "pnpm i && pnpm run generate && pnpm run build"
+  command = "pnpm i && pnpm run generate"
 
 [[headers]]
   for = "/*"
